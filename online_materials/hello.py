@@ -9,3 +9,7 @@ print(len(myName))
 print('What is your age?') # ask for their age
 myAge = input()
 print('You will be ' + str(int(myAge) + 1) + ' in a year.')
+if int(myAge) <= 60:
+    print("No eres muy mayor")
+else:
+    print("Eres un poco carroza")
